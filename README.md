@@ -1,12 +1,37 @@
-# React + Vite
+# QR Code Generator (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal QR Code generator built with React + Vite. Type text or a URL, preview instantly, tweak size/colors/error correction, and download as PNG or SVG.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Live QR preview
+- Download as PNG or SVG
+- Adjustable size (128–512 px)
+- Foreground/background color pickers
+- Error correction levels: L, M, Q, H
 
-## Expanding the ESLint configuration
+## Tech
+- React + Vite
+- Library: [react-qr-code](https://github.com/rosskhanas/react-qr-code)
+- Node.js 18+ recommended
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Quick start
+
+```bash
+# Clone your repo
+git clone https://github.com/Sahanxx/QR-code-generator.git
+cd QR-code-generator
+
+# Install deps
+npm install
+
+# Start dev server
+npm run dev
+# open the URL shown in terminal (usually http://localhost:5173)
+
+# Production build + local preview
+npm run build
+npm run preview
