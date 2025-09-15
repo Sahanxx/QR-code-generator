@@ -1,5 +1,9 @@
 # QR Code Generator (React + Vite)
 
+[![Deploy to GitHub Pages](https://github.com/Sahanxx/QR-code-generator/actions/workflows/deploy.yml/badge.svg)](https://github.com/Sahanxx/QR-code-generator/actions/workflows/deploy.yml)
+
+Live: https://sahanxx.github.io/QR-code-generator/
+
 A minimal QR Code generator built with React + Vite. Type text or a URL, preview instantly, tweak size/colors/error correction, and download as PNG or SVG.
 
 ---
